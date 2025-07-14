@@ -1,0 +1,35 @@
+.button {
+    padding: 5px;
+    margin: 5px;
+}
+
+
+/* Specific button styles */
+.button-group > .help {
+  background-color: #1976d2;
+  color: white;
+  margin: 5px;
+  padding: 5px 10px;
+}
+
+.button-group > .close {
+  background-color: #e53935;
+  color: white;
+  margin: 5px;
+  padding: 5px;
+}
+
+.button-group > .cancel {
+  background-color: #fbc02d;
+  color: black;
+  margin: 5px;
+  padding: 5px;
+}
+
+.button-group > .ok {
+  background-color: #43a047;
+  color: white;
+  margin: 5px;
+  padding: 5px;
+}
+

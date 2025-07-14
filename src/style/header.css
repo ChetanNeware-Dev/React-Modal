@@ -1,0 +1,12 @@
+.header-title {
+  flex-direction: row;
+  text-align: center;
+}
+.header-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: none;
+}
+
+

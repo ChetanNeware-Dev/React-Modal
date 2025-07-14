@@ -1,0 +1,9 @@
+
+.icon-and-text {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+.icon {
+    justify-content: center;
+}

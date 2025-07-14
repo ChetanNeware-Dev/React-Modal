@@ -1,0 +1,46 @@
+.dialog-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.dialog-window {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  min-width: 300px;
+  max-width: 600px;
+}
+
+.dialog-btn {
+  padding: 8px 12px;
+  margin: 4px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Specific button styles */
+.button-group.help {
+  background-color: #1976d2;
+  color: white;
+}
+
+.button-group.close {
+  background-color: #e53935;
+  color: white;
+}
+
+.button-group.cancel {
+  background-color: #fbc02d;
+  color: black;
+}
+
+.button-group.ok {
+  background-color: #43a047;
+  color: white;
+}
+
